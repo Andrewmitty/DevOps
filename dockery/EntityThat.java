@@ -41,7 +41,7 @@ public class EntityThat {
      */
     public EntityThat(int PK) {
 
-        // Create an EntityThat object with the given id
+        // Create an EntityThat object with the given primary key
 
     }
 
@@ -153,20 +153,6 @@ public class EntityThat {
 
     }
 
-    // make getters and setters for a That_pk (int), That_mno (string), That_pqr
-    // (string), That_This_pk (int)
-
-    /**
-     * Gets the primary key of the current entity
-     * 
-     * @return The primary key of the current entity
-     */
-    public int getThat_pk() {
-
-        // Get the That_pk
-        return this.That_pk;
-
-    }
 
     /**
      * Gets the mno of the current entity
