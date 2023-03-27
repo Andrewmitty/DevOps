@@ -16,11 +16,11 @@ public class EntityThat {
 
     // --------Variables--------
 
-    private int That_pk;
-    private String That_mno;
-    private String That_pqr;
-    private int That_This_pk;
-    private static JDBCConnectionMaker dbCxnMaker;
+    private int That_pk; // The primary key of the entity
+    private String That_mno; //The 'mno' value of the entity
+    private String That_pqr; //The 'pqr' value of the entity
+    private int That_This_pk; //The 'That_This_pk' value of the entity
+    private static JDBCConnectionMaker dbCxnMaker; // The object through which interactions with DB are made possible
 
     // --------Constructors--------
 
@@ -135,6 +135,7 @@ public class EntityThat {
     /**
      * Sets the connection to the database for future calls to it using other
      * funcitons in this class.
+
      * Must be called before any other functions in this class.
      * 
      * @param dbName     also called the schema
