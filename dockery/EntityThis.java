@@ -18,12 +18,12 @@ import JDBCConnectionMaker.JDBCConnectionMaker;
  */
 class EntityThis {
     // ----------- Variables -----------
-    private int primaryKey;
-    private String abc;
-    private int def;
-    private String ghi;
-    private String jkl;
-    private static JDBCConnectionMaker dbCxnMaker;
+    private int primaryKey; // The primary key of the 
+    private String abc; // The 'abc' value of the EntityThis object
+    private int def; // The 'def' value of the EntityThis object
+    private String ghi; // The 'ghi' value of the EntityThis object; convert 'datetime' to a 'String'
+    private String jkl; // The 'jkl' value of the EntityThis object; convert 'enum' to a 'String'
+    private static JDBCConnectionMaker dbCxnMaker; // The object through which interactions with DB are made possible
 
     // ----------- Constructors -----------
     /**
