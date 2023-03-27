@@ -16,7 +16,7 @@ import JDBCConnectionMaker.JDBCConnectionMaker;
  * @author Matthew Thompson Soto
  * @version 2023.03.26
  */
-class EntityThis {
+public class EntityThis {
     // ----------- Variables -----------
     private int primaryKey; // The primary key of the 
     private String abc; // The 'abc' value of the EntityThis object
